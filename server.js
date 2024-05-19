@@ -20,7 +20,7 @@ connectdb()
 // })
  
 app.use('/api/v1/user',require('./routers/usertouter'))
-
+ 
 app.listen(port,()=>{
     console.log(`Server Running On PORT ${port} on ${process.env.NODE_ENV} Mode `
     .bgMagenta.white
