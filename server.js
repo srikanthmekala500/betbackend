@@ -20,7 +20,7 @@ connectdb()
 // })
  
 app.use('/api/v1/user',require('./routers/usertouter'))
- app.get('/',(req,res)=>{
+ app.get('/home',(req,res)=>{
     res.send('hello')
 })
 app.listen(port,()=>{
